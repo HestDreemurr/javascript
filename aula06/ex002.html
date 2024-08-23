@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- "Cabeça" do documento -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Meu primeiro programa!</title> <!-- Título da página -->
+    <style>
+        /* CSS */
+        body {
+          background-color: rgb(105, 105, 173); /* Cor de fundo */
+          color: white; /* Cor da fonte */
+          font: normal 20pt Arial; /* Tipo, tamanho e fonte do texto */
+        }
+        h1 {
+          color: rgb(255, 212, 22); /* Todos os h1 (títulos) terão essa cor */
+        }
+    </style>
+</head>
+<!-- "Corpo" do documento -->
+<body>
+    <h1>Olá, mundo!</h1> <!-- <h1> significa título -->
+    <p>Gustavo Guanabara é o melhor professor</p> <!-- <p> significa parágrafo -->
+    <script>
+        var nome = window.prompt('Qual é o seu nome?') // Abre uma janela que pergunta o nome do usuário, e guarda ele em uma variável
+        window.alert('É um prazer te conhecer, ' + nome + '!') /* Abre uma janela que mostra o nome do usuário
+        Nesse caso, o '+' é usado para concatenar (juntar) strings e variáveis em uma mensagem */
+    </script>
+</body>
+</html>
