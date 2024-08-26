@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: lightskyblue;
+}
+
+div#cartas-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 400px;
+}
+
+div.carta {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  perspective: 1000px;
+}
+
+div.frente, div.verso {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.5s;
+}
+
+div.frente {
+  background-color: white;
+  text-align: center;
+}
+
+div.verso {
+  background-color: black;
+  transform: rotateY(180deg);
+}
+
+.carta.virada > .frente {
+  transform: rotateY(180deg);
+}
+
+.carta.virada > .verso {
+  transform: rotateY(0deg);
+}
