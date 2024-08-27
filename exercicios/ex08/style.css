@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: lightskyblue;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 1px #0000008d;
+  text-align: center;
+}
+
+#app {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+#consultar {
+  background-color: #6666ff;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  color: white;
+  padding: 4px;
+  font-weight: bold;
+}
+
+p.erro {
+  color: red;
+}
