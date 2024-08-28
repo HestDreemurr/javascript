@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: lightskyblue;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: #0391e9;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  margin-right: 15px;
+}
